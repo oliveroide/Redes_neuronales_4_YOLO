@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+tickets/
+*.pt
+*.mp4
+video_radar.mp4
+velocidades.png

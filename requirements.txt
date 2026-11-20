@@ -1,0 +1,11 @@
+ultralytics
+lap
+easyocr
+huggingface_hub
+streamlit
+streamlit-webrtc
+opencv-python-headless
+av
+pillow
+pandas
+matplotlib
