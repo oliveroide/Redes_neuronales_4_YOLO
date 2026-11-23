@@ -54,6 +54,8 @@ ctx = webrtc_streamer(
     key="radar",
     video_processor_factory=RadarProcessor,
     media_stream_constraints={"video": {"facingMode": "environment"}, "audio": False},
+    # STUN público para que el celular y la laptop encuentren la ruta del video (WebRTC)
+    rtc_configuration={"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]},
     async_processing=True,
 )
 if ctx.video_processor:

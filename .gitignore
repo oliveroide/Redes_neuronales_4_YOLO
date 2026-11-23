@@ -5,3 +5,15 @@ tickets/
 *.mp4
 video_radar.mp4
 velocidades.png
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+local.properties
+*.iml
+
+# Editor y copias sueltas
+.idea/
+/yolo11n.tflite
